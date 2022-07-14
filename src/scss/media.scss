@@ -1,0 +1,47 @@
+/* Desktop */
+@media all and (max-width: 1920px) {
+  html {font-size: 62.5%}
+}
+
+@media all and (max-width: 1600px) {
+  html {font-size: 62.0833333333%}
+}
+
+/* Laptop L   1440px */
+@media all and (max-width: $laptopLwidth) {
+  html {font-size: 58.875%}
+}
+
+/*            1200px */
+@media all and (max-width: 1200px) {
+  html {font-size: 56.0625%}
+}
+
+/* Laptop *   1024px */
+@media all and (max-width: $laptopWidth) {
+  html {font-size: 50.3333333%} 
+}
+
+/* Tablet *   768px */
+@media all and (max-width: $tableWidth) {
+  html {font-size: 46%}
+}
+
+/*            575px */
+@media all and (max-width: $smTableWidth) {
+  html {font-size: 40.7174479%} 
+}
+
+/* Mobile L   425px */
+@media all and (max-width: $lphoneWidth) {
+  html {font-size: 36.7174479%}
+}
+
+/* Mobile M   375px */
+@media all and (max-width: $mPhoneWidth) {
+  html {font-size: 30.7174479%} 
+}
+/* Mobile S   320px */                          /* width/1920 * 62.5  for adaptive */
+@media all and (max-width: $smPhoneWidth) {
+  html {font-size: 25,41666666666667%}
+}
